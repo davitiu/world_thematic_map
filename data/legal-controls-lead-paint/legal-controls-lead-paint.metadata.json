@@ -1,0 +1,31 @@
+{
+  "chart": {
+    "title": "Which countries have legally-binding controls on lead paint?",
+    "subtitle": "Paint is a main contributor to harmful lead exposure. The stringency of controls on lead paint can vary by country. Maximum concentrations of lead can differ, and may only apply to particular types of paint (for example, products used in households).",
+    "citation": "Lead paint regulations (WHO, 2023)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/legal-controls-lead-paint?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "Guinea-Bissau",
+      "Paraguay",
+      "Nigeria",
+      "Guinea"
+    ]
+  },
+  "columns": {
+    "lead_paint_regulation": {
+      "titleShort": "lead_paint_regulation",
+      "titleLong": "lead_paint_regulation",
+      "descriptionKey": [],
+      "unit": "",
+      "timespan": "2023-2023",
+      "type": "String",
+      "owidVariableId": 700254,
+      "shortName": "lead_paint_regulation",
+      "citationShort": " – processed by Our World in Data",
+      "citationLong": " – processed by Our World in Data. “lead_paint_regulation” [dataset]. Lead paint regulations (WHO, 2023) [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/700254.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-12-18",
+  "activeFilters": {}
+}

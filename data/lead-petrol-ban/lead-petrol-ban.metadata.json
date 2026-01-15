@@ -1,0 +1,25 @@
+{
+  "chart": {
+    "title": "Global phase-out of leaded petrol in road vehicles",
+    "subtitle": "All countries have banned the use of leaded petrol in road vehicles. Algeria was the final country to do so in 2021.",
+    "note": "The specific date of phase-out could not be found for some countries, but all countries have banned its use.",
+    "citation": "Collected by Our World in Data based on multiple sources",
+    "originalChartUrl": "https://ourworldindata.org/grapher/lead-petrol-ban?v=1&csvType=full&useColumnShortNames=false",
+    "selection": []
+  },
+  "columns": {
+    "lead_petrol_banned": {
+      "titleShort": "Which countries have banned the use of leaded petrol in road vehicles?",
+      "titleLong": "Which countries have banned the use of leaded petrol in road vehicles?",
+      "unit": "",
+      "timespan": "",
+      "type": "String",
+      "owidVariableId": 180065,
+      "citationShort": " – processed by Our World in Data",
+      "citationLong": " – processed by Our World in Data. “Which countries have banned the use of leaded petrol in road vehicles?” [dataset]. Collected by Our World in Data based on multiple sources [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/180065.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-12-18",
+  "activeFilters": {}
+}

@@ -1,0 +1,47 @@
+{
+  "chart": {
+    "title": "Share of paints with lead levels greater than 600 ppm",
+    "subtitle": "Lead paint is thought to be a significant contributor to lead poisoning; many countries have therefore implemented a regulatory limit of 90 parts per million (ppm) or 600ppm per weight of dry paint.",
+    "citation": "International Pollutants Elimination Network (IPEN)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/lead-paint-over-600ppm?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "Armenia",
+      "Benin",
+      "China",
+      "Egypt",
+      "Philippines",
+      "Senegal",
+      "South Africa",
+      "Pakistan",
+      "Nigeria",
+      "Nepal",
+      "Kenya",
+      "Kazakhstan",
+      "India",
+      "Tanzania",
+      "Thailand",
+      "Vietnam",
+      "Zambia",
+      "Taiwan",
+      "Sudan",
+      "Sri Lanka",
+      "South Korea",
+      "Ghana"
+    ]
+  },
+  "columns": {
+    "share_paints_exceeding_600ppm_lead": {
+      "titleShort": "Share of paints with lead levels exceeding 600 parts per million",
+      "titleLong": "Share of paints with lead levels exceeding 600 parts per million",
+      "unit": "",
+      "timespan": "",
+      "type": "Integer",
+      "owidVariableId": 210603,
+      "citationShort": " – processed by Our World in Data",
+      "citationLong": " – processed by Our World in Data. “Share of paints with lead levels exceeding 600 parts per million” [dataset]. International Pollutants Elimination Network (IPEN) [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/210603.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-12-18",
+  "activeFilters": {}
+}

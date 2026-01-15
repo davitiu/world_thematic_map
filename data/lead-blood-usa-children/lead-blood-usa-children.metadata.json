@@ -1,0 +1,27 @@
+{
+  "chart": {
+    "title": "Lead concentrations in the blood of children in the United States",
+    "subtitle": "Lead concentrations measured in blood samples from children aged one to five years old. \nChildren are particularly vulnerable to lead poisoning and can suffer permanent impacts on the development of the brain and nervous system.",
+    "citation": "Centers for Disease Control and Prevention; National Center for Health Statistics",
+    "originalChartUrl": "https://ourworldindata.org/grapher/lead-blood-usa-children?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "95th percentile",
+      "Median"
+    ]
+  },
+  "columns": {
+    "Blood lead concentration (1-5 year olds)": {
+      "titleShort": "Lead blood concentrations in children",
+      "titleLong": "Lead blood concentrations in children",
+      "unit": "",
+      "timespan": "",
+      "type": "Numeric",
+      "owidVariableId": 180069,
+      "citationShort": " – processed by Our World in Data",
+      "citationLong": " – processed by Our World in Data. “Lead blood concentrations in children” [dataset]. Centers for Disease Control and Prevention; National Center for Health Statistics and National Center for Environmental Health; National Health and Nutrition Examination Survey [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/180069.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-12-17",
+  "activeFilters": {}
+}

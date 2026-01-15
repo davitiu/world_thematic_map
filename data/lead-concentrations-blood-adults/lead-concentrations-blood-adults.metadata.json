@@ -1,0 +1,40 @@
+{
+  "chart": {
+    "title": "Mean lead concentrations in the blood of adults",
+    "subtitle": "Mean lead concentrations in the blood of adults aged 14 and over between 2010 and 2019. There is no defined 'safe' level for lead blood concentrations. The WHO adopts a threshold of 5 µg/dL as an achievable maximum level.",
+    "citation": "Ericson et al. (2021). Blood lead levels in low-income and middle-income countries: a systematic review. The Lancet Planetary Health.",
+    "originalChartUrl": "https://ourworldindata.org/grapher/lead-concentrations-blood-adults?overlay=download-data&v=1&csvType=filtered&useColumnShortNames=false",
+    "selection": [
+      "Jamaica",
+      "Ethiopia",
+      "Indonesia",
+      "Ecuador",
+      "China",
+      "Vietnam",
+      "Pakistan",
+      "Iran",
+      "Bangladesh",
+      "India",
+      "Thailand",
+      "Nepal",
+      "Nigeria"
+    ]
+  },
+  "columns": {
+    "Blood lead level in adults": {
+      "titleShort": "Mean lead concentrations in the blood of adults",
+      "titleLong": "Mean lead concentrations in the blood of adults",
+      "unit": "",
+      "timespan": "",
+      "type": "Numeric",
+      "owidVariableId": 180071,
+      "citationShort": " – processed by Our World in Data",
+      "citationLong": " – processed by Our World in Data. “Mean lead concentrations in the blood of adults” [dataset]. Ericson et al. (2021). Blood lead levels in low-income and middle-income countries: a systematic review. The Lancet Planetary Health. [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/180071.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-12-18",
+  "activeFilters": {
+    "overlay": "download-data"
+  }
+}
