@@ -51,6 +51,7 @@ git clone https://github.com/davitiu/world_thematic_map.git
 cd world_thematic_map
 pip install -r requirements.txt
 The package can be imported using a local path installation.
+```
 
 Usage
 Create a choropleth map by initializing the main class with a CSV file
