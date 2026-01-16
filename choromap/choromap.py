@@ -124,10 +124,12 @@ class ChoroMap:
         Customized colorbar, it scales the dataset with stasistical values and sets the colorscale accordingly.
         """
         # colorscale based on mean, median, standard deviation and max value from the numerical column of the dataframe
-        median_color = float(self.datasets[keyword]["data"][self.datasets[keyword]["data"].columns[3]].median())
-        mean_color = float(self.datasets[keyword]["data"][self.datasets[keyword]["data"].columns[3]].mean())
-        max_color = float(self.datasets[keyword]["data"][self.datasets[keyword]["data"].columns[3]].max())
-        std_color = float(self.datasets[keyword]["data"][self.datasets[keyword]["data"].columns[3]].std())
+        
+        median_color = float(round(self.datasets[keyword]["data"][self.datasets[keyword]["data"].columns[3]].median(), 2))
+        mean_color = float(round(self.datasets[keyword]["data"][self.datasets[keyword]["data"].columns[3]].mean(), 2))
+        min_color = float(round(self.datasets[keyword]["data"][self.datasets[keyword]["data"].columns[3]].min(), 2))
+        max_color = float(round(self.datasets[keyword]["data"][self.datasets[keyword]["data"].columns[3]].max(), 2))
+        std_color = float(round(self.datasets[keyword]["data"][self.datasets[keyword]["data"].columns[3]].std(), 2))
         while median_color > 1:
             median_color /= 10
         while mean_color > 1:
@@ -137,10 +139,10 @@ class ChoroMap:
         while std_color >1:
             std_color /= 10
         self.colorscale=[
-            [0.0, "black"],  # no data color
-            [median_color - std_color, "black"],
+            [min_color, "black"],  # no data color
+            [round((median_color - std_color), 2), "black"],
             [median_color, "black"],  # Midpoint color
-            [median_color + std_color, "black"],
+            [round((median_color + std_color), 2), "black"],
             [max_color, "black"],    # Highest value color
         ]
 
