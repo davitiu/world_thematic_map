@@ -17,9 +17,9 @@ and visualization of global indicators such as lead pollution.
 - Built-in color scales and colorbars
 - Built-in histogram plots for data exploration
 - Robust error handling for:
-  - Missing or non-numeric values
-  - Incorrect column names
-  - Metadata mismatches
+- Missing or non-numeric values
+- Incorrect column names
+- Metadata mismatches
 
 ---
 
@@ -53,12 +53,12 @@ pip install -r requirements.txt
 The package can be imported using a local path installation.
 ```
 
-Usage
+## Usage
 Create a choropleth map by initializing the main class with a CSV file
 and its corresponding JSON metadata:
 To use the choromap package, users can append, modify, or remove OWID-style datasets, as long as the countries.json file remains inside the data directory.
 
-
+```
 from choromap import ChoroMap
 
 cm = ChoroMap(
@@ -67,9 +67,11 @@ cm = ChoroMap(
 )
 
 cm.plot_choropleth()
+```
 
-Missing Data Handling
-If show_no_data=True is enabled:
+## Missing Data Handling
+
+If ```show_no_data=True``` is enabled:
 
 Countries without available data are assigned a placeholder value (-1)
 
@@ -79,22 +81,22 @@ visually similar to low-value regions
 Hovering over a country always displays the correct values (-1 for missing data),
 ensuring interpretability
 
-Colorscale
+## Colorscale
 
 Colorscale can be set to built-in colorscale within choromap package or alternatively set to different, plotly's specified colorscale like Magma. When data_based_colorbar is set to True, the color bar within the choropleth maps will display colors based on built-in method, or users can change to alternative colorscales when the keyword colorscale= is set to accordingly.
 
-Demo
+## Demo
 A full Jupyter Notebook demonstration is included, showcasing:
 
-Choropleth maps for 8 different datasets
+- Choropleth maps for 8 different datasets
 
-Default vs custom color scales
+- Default vs custom color scales
 
-Missing data handling
+- Missing data handling
 
-Histogram visualizations
+- Histogram visualizations
 
-Data Sources
+
 The demo datasets are based on publicly available data from
 Our World in Data (OWID).
 
