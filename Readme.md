@@ -14,7 +14,7 @@ and visualization of global indicators such as lead pollution.
 - Interactive **choropleth world maps** using Plotly
 - Support for multiple CSV datasets with corresponding JSON metadata
 - Optional handling of **missing country data**
-- Built-in color scales
+- Built-in color scale
 - Built-in histogram plots for data exploration
 - Robust error handling for:
   - Missing or non-numeric values
