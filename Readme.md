@@ -24,7 +24,7 @@ and visualization of global indicators such as lead pollution.
 ---
 
 ## Package Structure
-
+```
 world_thematic_map/
 ├── choromap/
 │ ├── init.py
@@ -38,7 +38,7 @@ world_thematic_map/
 ├── requirements.txt
 └── LICENSE
 
-
+```
 
 ---
 
