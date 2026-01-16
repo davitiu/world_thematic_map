@@ -80,7 +80,7 @@ Due to color contrast limitations, data regions may appear
 visually similar to low-value regions
 
 Hovering over a country always displays the correct values (-1 for missing data),
-ensuring interpretability
+ensuring interpretability.
 
 ## Colorscale
 
